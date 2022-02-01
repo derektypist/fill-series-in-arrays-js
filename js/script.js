@@ -13,7 +13,7 @@ txt += `Natural Numbers: ${natural(1,10)} <br>`;
 txt += `Square Numbers: ${squares(1,10)} <br>`;
 txt += `Cube Numbers: ${cubes(1,10)} <br>`;
 txt += `Random Numbers: ${random} <br>`;
-txt += `Multiples of 3 and 5: ${multOf3and5(1,16)} <br>`;
+txt += `Multiples of 3 and 5: ${multOf3and5(0,15)} <br>`;
 
 // Display Text in the Browser
 document.getElementById('demo').innerHTML = txt;
