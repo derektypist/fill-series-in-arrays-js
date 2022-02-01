@@ -2,9 +2,9 @@
 let txt = "";
 
 // Set Up Arrays
-let natural = Array(10).fill(0).map((i) => i+1);
-let squares = Array(10).fill(0).map((i) => i**2);
-let cubes = Array(10).fill(0).map((i) => i**3);
+let natural = (e,i) => Array(10).fill(e).map((i) => i+1);
+let squares = (e,i) => Array(10).fill(e).map((i) => i**2);
+let cubes =  (e,i) =>Array(10).fill(0).map((i) => i**3);
 let random = Array(10).fill(0).map((i) => Math.floor(Math.random()*100)+1);
 let multOf3and5 = Array(16).fill(false).map((i) => i%3==0 || i%5 == 0 ? true : false);
 
