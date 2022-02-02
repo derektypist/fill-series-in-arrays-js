@@ -8,7 +8,7 @@ let cubes = (s,e) => Array(e+1-s).fill(s).map((e,i) => (i+1)**3);
 let random = Array(10).fill(0).map((i) => Math.floor(Math.random()*100)+1);
 let arithmetic = (s,e) => Array(e+1-s).fill(s).map((e,i) => i+3);
 let geometric = (s,e) => Array(e+1-s).fill(s).map((e,i) => Math.pow(2,i));
-let alphabet = (s,e) => Array(e+1,s).fill('a').map((e,i) => 'abcdefghij'.charAt(i));
+let alphabet = (s,e) => Array(e+1-s).fill('a').map((e,i) => 'abcdefghij'.charAt(i));
 let isMultOf3Or5 = (s,e) => Array(e-s).fill(s).map((e,i) => i%3==0 || i%5 == 0 ? true : false);
 let multOf3Or5 = (s,e) => Array(e-s).fill(s).map((e,i) => i%3==0 || i%5 == 0 ? i : 0);
 
