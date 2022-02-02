@@ -18,8 +18,8 @@ txt += `Cube Numbers: ${cubes(1,10)} <br>`;
 txt += `Random Numbers: ${random} <br>`;
 txt += `Arithmetic Progression: ${arithmetic(1,10)} <br>`;
 txt += `Geometric Progression: ${geometric(1,10)} <br>`;
-txt += `Are Multiples of 3 or 5: ${isMultOf3Or5(0,10)} <br>`;
-txt += `Multiples of 3 or 5: ${multOf3Or5(0,10)} <br>`;
+txt += `Are Multiples of 3 or 5: ${isMultOf3Or5(0,16)} <br>`;
+txt += `Multiples of 3 or 5: ${multOf3Or5(0,16)} <br>`;
 
 // Display Text in the Browser
 document.getElementById('demo').innerHTML = txt;
