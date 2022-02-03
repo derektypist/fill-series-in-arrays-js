@@ -4,7 +4,7 @@ The purpose of this exercise is to perform fill series in Arrays without having 
 
 ## UX
 
-As a user, I expect to see the array of natural numbers, square numbers, cube numbers, random numbers, arithmetic progression, geometric progression, first 10 letters of alphabet, multiples of 3 or 5 (boolean and number).
+As a user, I expect to see the arrays of natural numbers, square numbers, cube numbers, random numbers, arithmetic progression, geometric progression, first 10 letters of alphabet, multiples of 3 or 5 (boolean and number).
 
 ## Features
 
